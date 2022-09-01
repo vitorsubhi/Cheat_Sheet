@@ -6,6 +6,9 @@
 *.obj
 *.elf
 
+# Cache files
+*.pyc
+
 # Precompiled Headers
 *.gch
 *.pch
