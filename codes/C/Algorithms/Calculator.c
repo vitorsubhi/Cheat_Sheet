@@ -59,7 +59,7 @@ int main ()
                     printf ("Falha ao dividir %d por %d\n", number[0], number[1]);
                 else
                     printf ("O resultado de %.2f %c %.2f = %.2f\n", number[0], operator, number[1], result);
-            } else if (menu == 6){
+            } else {
                 for (i = number[0]; i > 1; i--)
                     result = i * result;
                 printf ("O resultado de %.2f! = %.2f\n", number[0], result);
