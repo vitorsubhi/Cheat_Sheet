@@ -12,7 +12,7 @@ var vy = 10;
 window.onload = init;
 
 function init() {
-  setInterval(main, 1000/60); // 60 fps
+  setInterval(main, 1000/144); // 60 fps
 };
 
 function main() {
@@ -23,6 +23,7 @@ function main() {
     if (y > canvas.height - radius){ // If ball reach the floor then
         y = canvas.height - radius; // Reposition ball
         vy *= -0.8; // Revert direction and reduce velocity.
+        vx *= 0.996; // Symbolic friction with the floor
     } else if (y < radius){
         y = radius; // Reposition ball
         vy *= -1.0; // Revert direction
@@ -33,7 +34,7 @@ function main() {
         vx *= -0.8;
     } else if (x < radius){
         x = radius; // Reposition ball
-        vx *= -0.8;
+        vx *= -0.5;
     }
     drawBall();
 };
