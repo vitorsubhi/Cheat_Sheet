@@ -8,4 +8,3 @@ Value *Int16::generate(Function *func, BasicBlock *block, BasicBlock *allocblock
 void Int16::accept(Visitor &v) {
 	v.visit(*this); 
 }
-

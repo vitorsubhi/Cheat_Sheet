@@ -1,4 +1,3 @@
-
 #include "Header.h"
 #include <cxxabi.h>
 
@@ -128,5 +127,3 @@ void PrintAstVisitor::visit(Delay const& n) {
 void PrintAstVisitor::visit(If const& n) {
 	PrintAstVisitorNode::visit(n);
 }
-
-

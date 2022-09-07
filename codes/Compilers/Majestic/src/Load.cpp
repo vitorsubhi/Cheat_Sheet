@@ -21,4 +21,3 @@ Value *Load::generate(Function *func, BasicBlock *block, BasicBlock *allocblock)
 void Load::accept(Visitor &v) {
 	v.visit(*this); 
 }
-

@@ -44,4 +44,3 @@ Value *Scalar::generate(Function *func, BasicBlock *block, BasicBlock *allocbloc
 void Scalar::accept(Visitor& v) {
 	v.visit(*this);
 }
-

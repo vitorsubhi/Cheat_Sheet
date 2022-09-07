@@ -66,4 +66,3 @@ Value *BinaryOp::generate(Function *func, BasicBlock *block, BasicBlock *allocbl
 void BinaryOp::accept(Visitor& v) {
 	v.visit(*this);
 }
-

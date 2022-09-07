@@ -21,4 +21,3 @@ Value *FunctionCall::generate(Function *func, BasicBlock *block, BasicBlock *all
 	else
 		return CallInst::Create(cfunc, argsRef, "fc", block);
 }
-

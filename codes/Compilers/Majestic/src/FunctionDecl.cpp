@@ -90,4 +90,3 @@ Value *FunctionDecl::generate(Function *func, BasicBlock *block, BasicBlock *all
 
 	return nfunc;
 }
-

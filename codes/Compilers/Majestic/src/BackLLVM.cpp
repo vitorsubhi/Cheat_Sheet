@@ -133,4 +133,3 @@ void print_llvm_ir(const char *target, char opt_level) {
 	// print IR to stdout
 	mainmodule->print(outs(), nullptr);
 }
-

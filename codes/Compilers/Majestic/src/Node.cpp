@@ -14,4 +14,3 @@ std::vector<Node *> const& Node::children() const {
 void Node::accept(Visitor& v) {
 	v.visit(*this);
 }
-

@@ -35,4 +35,3 @@ Value *While::generate(Function *func, BasicBlock *block, BasicBlock *allocblock
 void While::accept(Visitor& v) {
 	v.visit(*this);
 }
-
