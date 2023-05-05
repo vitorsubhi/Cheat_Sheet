@@ -5,6 +5,7 @@ seguida o programa deverá contar e escrever quantos valores pares foi
 encontrado no vetor lido.
 
 */
+
 #include <stdio.h>
 
 int main()

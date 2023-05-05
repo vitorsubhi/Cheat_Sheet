@@ -1,6 +1,8 @@
 /*
+
 Construa um programa que leia um vetor de 12 posições e atribua o valor 0 para todos
 os elementos que possuírem valores negativos.
+
 */
 
 #include <stdio.h>
