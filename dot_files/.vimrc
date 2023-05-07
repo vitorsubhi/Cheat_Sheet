@@ -10,6 +10,7 @@ set mouse=a
 
 "set C indent on
 "set indent on
+"set number
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -21,18 +22,17 @@ set autoindent
 set smartindent
 set ruler
 "set cindent
-
-ab PF printf("\n<esc>A;<esc>hhhhi
-ab STDIO #include<stdio.h>
-ab /* /* */<ESC>hhi
-ab free free( <esc>A;<esc>hhi
+""ab PF printf("\n<esc>A;<esc>hhhhi
+""ab STDIO #include<stdio.h>
+ab /* /*<CR>*/<ESC>O<backspace>
+""ab free free( <esc>A;<esc>hhi
 ""ab else else<CR>{<CR>
-ab malloc malloc( <esc>A;<esc>hhi
+""ab malloc malloc( <esc>A;<esc>hhi
 
-ab then then<CR><CR><backspace>end<esc>kkA<delete>
+""ab then then<CR><CR><backspace>end<esc>kkA<delete>
 
-ab ifndef #ifndef<CR>#define<CR>#endif<ESC>kkA
-ab inc #include< ><ESC>i
+""ab ifndef #ifndef<CR>#define<CR>#endif<ESC>kkA
+""ab inc #include< ><ESC>i
 
 
 "Mapeamento de teclado
