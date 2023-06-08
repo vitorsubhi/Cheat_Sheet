@@ -56,7 +56,7 @@ int main ()
                 }
 
                 if (number[1] == 0 && menu == 4)
-                    printf ("Falha ao dividir %d por %d\n", number[0], number[1]);
+                    printf ("Falha ao dividir %.2f por %.2f\n", number[0], number[1]);
                 else
                     printf ("O resultado de %.2f %c %.2f = %.2f\n", number[0], operator, number[1], result);
             } else {
