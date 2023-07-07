@@ -17,4 +17,4 @@ jobs:
         run: cd codes/Compilers/Small_Compiler && make
 
       - name: Test Small_Compiler
-        run: cd build && ./parser Sample_00
+        run: cd codes/Compilers/Small_Compiler/build && ./parser Sample_00 && ./parser Sample_01
