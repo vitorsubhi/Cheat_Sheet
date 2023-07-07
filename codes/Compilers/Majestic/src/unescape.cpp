@@ -66,3 +66,16 @@ void unescape(char *data)
 	}
 	*unescaped = '\0';
 }
+
+/*int main() {
+
+	char escaped[] = "thiago\\t10\\nasdf\\23t\\1\\2345";
+	char escaped2[] = "thiago\t10\nasdf\23t\1\2345";
+
+
+	unescape(escaped);
+	printf("%s\n", escaped);
+	printf("%s\n", escaped2);
+
+}*/
+

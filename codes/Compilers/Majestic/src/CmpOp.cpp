@@ -1,3 +1,4 @@
+
 #include "Header.h"
 
 CmpOp::CmpOp (Node *l, int op, Node *r) : lexpn(l), rexpn(r) {
@@ -47,8 +48,9 @@ Value *CmpOp::generate(Function *func, BasicBlock *block, BasicBlock *allocblock
 
 	if (isFCmp)
 		return new FCmpInst(*block, predicate, lexp, rexp, "cmpf");
-	else
+	else {
 		return new ICmpInst(*block, predicate, lexp, rexp, "cmpi");
+	}
 }
 
 void CmpOp::accept(Visitor& v) {

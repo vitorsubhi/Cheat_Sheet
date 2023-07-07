@@ -10,3 +10,4 @@ void RecursiveVisitor::visit(Node const& n) {
 
 	after(n);
 }
+

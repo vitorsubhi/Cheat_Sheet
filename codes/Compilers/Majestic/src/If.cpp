@@ -1,3 +1,4 @@
+
 #include "Header.h"
 
 If::If(Node *e, Node *tst, Node *est) : expr(e), thenst(tst), elsest(est) {
@@ -49,3 +50,4 @@ Value *If::generate(Function *func, BasicBlock *block, BasicBlock *allocblock) {
 void If::accept(Visitor& v) {
 	v.visit(*this);
 }
+

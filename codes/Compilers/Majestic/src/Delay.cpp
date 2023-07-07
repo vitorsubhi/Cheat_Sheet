@@ -18,3 +18,4 @@ Value *Delay::generate(Function *func, BasicBlock *block, BasicBlock *allocblock
 void Delay::accept(Visitor& v) {
 	v.visit(*this);
 }
+

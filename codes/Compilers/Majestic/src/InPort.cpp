@@ -11,3 +11,4 @@ Value *InPort::generate(Function *func, BasicBlock *block, BasicBlock *allocbloc
 	ArrayRef<Value*> argsRef(args);
 	return CallInst::Create(analogRead, argsRef, "", block);
 }
+

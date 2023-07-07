@@ -7,3 +7,4 @@ Value *Int32::generate(Function *func, BasicBlock *block, BasicBlock *allocblock
 void Int32::accept(Visitor &v) {
 	v.visit(*this); 
 }
+

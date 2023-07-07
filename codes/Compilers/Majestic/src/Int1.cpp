@@ -9,3 +9,4 @@ Value *Int1::generate(Function *func, BasicBlock *block, BasicBlock *allocblock)
 void Int1::accept(Visitor &v) {
 	v.visit(*this); 
 }
+
