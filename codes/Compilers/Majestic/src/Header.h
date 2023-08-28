@@ -106,6 +106,7 @@ static Value *search_symbol(const string& ident, BasicBlock *firstb = NULL, Basi
 #include "Coercion.h"
 #include "Delay.h"
 #include "Double.h"
+#include "ExternDeclaration.h"
 #include "Float.h"
 #include "Float128.h"
 #include "FunctionCall.h"
