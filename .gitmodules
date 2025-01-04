@@ -1,0 +1,3 @@
+[submodule "shell/community"]
+	path = shell/community
+	url = https://github.com/cheat/cheatsheets.git
